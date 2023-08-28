@@ -22,6 +22,7 @@ export default function Products() {
         onChange={handleChange}
       />
       <label htmlFor="checkbox">Show Only Hot Sale</label>
+      <h1>배포하기 완료</h1>
       <ul>
         {products.map((products) => (
           <li key={products.id}>
